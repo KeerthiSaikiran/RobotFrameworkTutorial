@@ -1,0 +1,14 @@
+To run test cases specific to tags -
+
+1. robot --include=smoke TagsDemo/
+
+2. robot -i sanity -i regression TagsDemo/
+
+sanity, smoke, regression = Tags
+
+
+Here we can run single test case in a multiple testcases of a directory or all files in a directory
+TagsDemo/TC01_Tags.robot = single test case
+TagsDemo/   = all test cases in TagsDemo Directory
+
+This commands are ran on the terminal
